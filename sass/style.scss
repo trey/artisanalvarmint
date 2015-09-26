@@ -43,65 +43,30 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     ## Captions
     ## Galleries
 --------------------------------------------------------------*/
-@import "variables-site/variables-site";
-@import "mixins/mixins-master";
+@import 'variables-site/variables-site';
 
-/*--------------------------------------------------------------
-# Normalize
---------------------------------------------------------------*/
-@import "normalize";
+@import 'mixins/mixins-master';
 
-/*--------------------------------------------------------------
-# Typography
---------------------------------------------------------------*/
-@import "typography/typography";
+@import 'normalize';
 
-/*--------------------------------------------------------------
-# Elements
---------------------------------------------------------------*/
-@import "elements/elements";
+@import 'typography/typography';
 
-/*--------------------------------------------------------------
-# Forms
---------------------------------------------------------------*/
-@import "forms/forms";
+@import 'elements/elements';
 
-/*--------------------------------------------------------------
-# Navigation
---------------------------------------------------------------*/
-@import "navigation/navigation";
+@import 'forms/forms';
 
-/*--------------------------------------------------------------
-# Accessibility
---------------------------------------------------------------*/
-@import "modules/accessibility";
+@import 'navigation/navigation';
 
-/*--------------------------------------------------------------
-# Alignments
---------------------------------------------------------------*/
-@import "modules/alignments";
+@import 'modules/accessibility';
 
-/*--------------------------------------------------------------
-# Clearings
---------------------------------------------------------------*/
-@import "modules/clearings";
+@import 'modules/alignments';
 
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-@import "site/secondary/widgets";
+@import 'modules/clearings';
 
-/*--------------------------------------------------------------
-# Content
---------------------------------------------------------------*/
-@import "site/site";
+@import 'site/secondary/widgets';
 
-/*--------------------------------------------------------------
-# Infinite scroll
---------------------------------------------------------------*/
-@import "modules/infinite-scroll";
+@import 'site/site';
 
-/*--------------------------------------------------------------
-# Media
---------------------------------------------------------------*/
-@import "media/media";
+@import 'modules/infinite-scroll';
+
+@import 'media/media';

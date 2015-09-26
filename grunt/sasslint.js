@@ -1,3 +1,9 @@
 module.exports = {
-    files: ['sass/**/*.scss']
+    files: {
+        include: ['sass/**/*.scss'],
+        ignore: [
+            'sass/_normalize.scss',
+            'sass/style.scss',
+        ]
+    }
 };

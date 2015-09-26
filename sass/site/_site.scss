@@ -1,16 +1,8 @@
-// @import "../layout/content-sidebar";
-// @import "../layout/sidebar-content";
-/*--------------------------------------------------------------
-## Posts and pages
---------------------------------------------------------------*/
-@import "primary/posts-and-pages";
+// @import '../layout/content-sidebar';
+// @import '../layout/sidebar-content';
 
-/*--------------------------------------------------------------
-## Asides
---------------------------------------------------------------*/
-@import "primary/asides";
+@import 'primary/posts-and-pages';
 
-/*--------------------------------------------------------------
-## Comments
---------------------------------------------------------------*/
-@import "primary/comments";
+@import 'primary/asides';
+
+@import 'primary/comments';

@@ -4,6 +4,9 @@ options:
   formatter: stylish
 files:
   include: 'sass/**/*.scss'
+  ignore:
+    - 'sass/_normalize.scss'
+    - 'sass/style.scss'
 rules:
   # Extends
   extends-before-mixins: 1
@@ -26,7 +29,7 @@ rules:
   no-ids: 1
   no-important: 1
   no-warn: 1
-  no-color-keywords: 1
+  no-color-keywords: 0
   no-invalid-hex: 1
   no-css-comments: 1
   no-color-literals: 1
@@ -42,7 +45,10 @@ rules:
     -
       size: 4
   leading-zero: 1
-  nesting-depth: 1
+  nesting-depth:
+    - 1
+    -
+      max-depth: 4
   property-sort-order: 1
   quotes: 1
   variable-for-property: 1
