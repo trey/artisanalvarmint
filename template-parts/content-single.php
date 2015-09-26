@@ -10,13 +10,13 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="entry-content">
+	<div class="entry-content" title="<?php the_title(); ?>">
 		<?php the_content(); ?>
 	</div>
 
 	<footer class="entry-footer">
 		<div class="entry-meta">
-			[entry-meta]
+			<?php get_template_part('template-parts/content-meta'); ?>
 		</div>
 	</footer>
 </article>

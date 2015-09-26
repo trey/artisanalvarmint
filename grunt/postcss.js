@@ -1,6 +1,6 @@
 module.exports = {
     options: {
-        map: { inline: true },
+        map: false,
         processors: [
             require('autoprefixer')(
                 { browsers: ['last 2 versions'] }
