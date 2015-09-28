@@ -15,4 +15,7 @@
 <?php if (get_field('film_iso')): ?>
     <?php the_field('film_iso'); ?>
 <?php endif; ?>
+<?php if (get_field('location')): ?>
+    / <?php the_field('location'); ?>
+<?php endif; ?>
  / <?php echo date('F d, Y', strtotime(get_field('date'))); ?>
