@@ -4,9 +4,10 @@
 
     a,
     a:visited {
-        color: $color__text-main;
+        color: $gray-2;
 
         &:hover {
+            color: $gray-3;
             text-decoration: underline;
         }
     }

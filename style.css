@@ -369,11 +369,12 @@ big {
 
 .site-footer a,
 .site-footer a:visited {
-  color: #404040;
+  color: #999;
 }
 
 .site-footer a:hover,
 .site-footer a:visited:hover {
+  color: #333;
   text-decoration: underline;
 }
 
