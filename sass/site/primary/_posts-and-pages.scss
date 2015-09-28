@@ -26,6 +26,23 @@
     }
 }
 
+.entry-content {
+    .page-header {
+        @include font-size(1.2);
+    }
+
+    .copy {
+        @include font-size(1.5);
+        margin: 0 auto;
+        max-width: 900px;
+        padding: 0 50px;
+
+        p {
+            margin: 1.5em 0 0;
+        }
+    }
+}
+
 .page-links {
     clear: both;
     margin: 0 0 1.5em;

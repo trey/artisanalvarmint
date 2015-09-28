@@ -735,6 +735,21 @@ a:hover, a:active {
   margin: 0;
 }
 
+.entry-content .page-header {
+  font-size: 1.2rem;
+}
+
+.entry-content .copy {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 0 50px;
+}
+
+.entry-content .copy p {
+  margin: 1.5em 0 0;
+}
+
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
