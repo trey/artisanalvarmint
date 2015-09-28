@@ -304,6 +304,10 @@ textarea {
   color: #333;
 }
 
+.page-header {
+  text-align: center;
+}
+
 p {
   margin-bottom: 1.5em;
 }
