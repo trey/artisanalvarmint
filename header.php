@@ -26,12 +26,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
-			<?php if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
-			<?php else : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php endif; ?>
-			<p class="site-description"><?php bloginfo( 'description' ); ?></p>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 		</div><!-- .site-branding -->
 	</header><!-- #masthead -->
 

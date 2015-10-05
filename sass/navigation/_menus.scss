@@ -1,92 +1,26 @@
-$gray: rgba(0, 0, 0, .2);
-
-.main-navigation {
-    clear: both;
-    display: block;
-    float: left;
-    width: 100%;
-
-    ul {
-        display: none;
-        list-style: none;
-        margin: 0;
-        padding-left: 0;
-
-        ul {
-            box-shadow: 0 3px 3px $gray;
-            float: left;
-            left: -999em;
-            position: absolute;
-            top: 1.5em;
-            z-index: 99999;
-
-            ul {
-                left: -999em;
-                top: 0;
-            }
-
-            li {
-                &:hover > ul,
-                &.focus > ul {
-                    left: 100%;
-                }
-            }
-
-            a {
-                width: 200px;
-            }
-        }
-
-        li:hover > ul,
-        li.focus > ul {
-            left: auto;
-        }
-    }
-
-    li {
-        float: left;
-        position: relative;
-    }
-
-    a {
-        display: block;
-        text-decoration: none;
-    }
-}
-
-// Small menu.
-.menu-toggle,
-.main-navigation.toggled ul {
-    display: block;
-}
-
-@media screen and (min-width: 37.5em) {
-    .menu-toggle {
-        display: none;
-    }
-
-    .main-navigation ul {
-        display: block;
-    }
-}
-
 .comment-navigation,
 .posts-navigation,
 .post-navigation {
+    .nav-links {
+        display: flex;
+        flex-direction: row-reverse;
+
+        div {
+            flex-grow: 1;
+            width: 50%;
+        }
+    }
 
     .site-main & {
-        margin: 0 0 1.5em;
-        overflow: hidden;
+        padding: 10px 15px;
     }
 
     .nav-previous {
-        float: left;
-        width: 50%;
+        text-align: right;
     }
 
     .nav-next {
-        float: right;
-        text-align: right;
+        text-align: left;
         width: 50%;
     }
 }

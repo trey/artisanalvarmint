@@ -1,14 +1,3 @@
 .site-footer {
     @include font-size(.75);
-    color: $gray-1;
-
-    a,
-    a:visited {
-        color: $gray-2;
-
-        &:hover {
-            color: $gray-3;
-            text-decoration: underline;
-        }
-    }
 }

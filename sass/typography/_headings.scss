@@ -1,35 +1,34 @@
-.entry-meta {
+.entry-meta.single,
+.entry-meta a {
+    padding: 8px;
     text-align: center;
+}
 
-    &,
-    a,
-    a:visited {
-        color: $gray-1;
-        padding: 5px;
-        text-decoration: none;
-    }
+.entry-meta a {
+    @include font-size(.8);
+    color: transparent;
+    display: block;
+    height: 35px;
+    margin-top: -35px;
+    position: relative;
+    text-decoration: none;
+    transition: all .2s;
+}
 
-    a:hover {
-        background: lighten($gray-1, 10%);
-        color: $gray-3;
-    }
+.post:hover .entry-meta a {
+    background-color: $gray-transparent-1;
+    color: $white;
 }
 
 .site-title {
-    @include font-size(1.2);
+    @include font-size(.9);
+    font-weight: normal;
+    margin: 0;
     text-align: center;
 
-    &,
-    a,
-    a:visited {
-        color: $gray-2;
+    a {
+        display: block;
         padding: 5px;
-        text-decoration: none;
-    }
-
-    a:hover {
-        background: lighten($gray-1, 10%);
-        color: $gray-3;
     }
 }
 

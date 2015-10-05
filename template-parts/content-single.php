@@ -13,7 +13,7 @@
 	<div class="entry-content">
 		<?php get_template_part('template-parts/content-photo'); ?>
 
-		<div class="entry-meta">
+		<div class="entry-meta single">
 			<?php get_template_part('template-parts/content-meta'); ?>
 		</div>
 

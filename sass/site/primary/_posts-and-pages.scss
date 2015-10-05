@@ -2,10 +2,6 @@
     display: block;
 }
 
-.hentry {
-    margin: 0 0 1.5em;
-}
-
 .byline,
 .updated:not(.published) {
     display: none;
@@ -27,6 +23,10 @@
 }
 
 .entry-content {
+    img {
+        display: block;
+    }
+
     .page-header {
         @include font-size(1.2);
     }

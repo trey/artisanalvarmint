@@ -15,7 +15,7 @@ function artisanalvarmint_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
 		'render'    => 'artisanalvarmint_infinite_scroll_render',
-		'footer'    => 'page',
+		'footer'    => false,
 	) );
 } // end function artisanalvarmint_jetpack_setup
 add_action( 'after_setup_theme', 'artisanalvarmint_jetpack_setup' );

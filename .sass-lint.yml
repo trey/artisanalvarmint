@@ -29,7 +29,7 @@ rules:
   no-ids: 1
   no-important: 1
   no-warn: 1
-  no-color-keywords: 0
+  no-color-keywords: 1
   no-invalid-hex: 1
   no-css-comments: 1
   no-color-literals: 1

@@ -17,35 +17,10 @@ address {
     margin: 0 0 1.5em;
 }
 
-pre {
-    @include font-size(.9375);
-    background: $color__background-pre;
-    font-family: $font__pre;
-    line-height: $font__line-height-pre;
-    margin-bottom: 1.6em;
-    max-width: 100%;
-    overflow: auto;
-    padding: 1.6em;
-}
-
-code,
-kbd,
-tt,
-var {
-    @include font-size(.9375);
-    font-family: $font__code;
-}
-
 abbr,
 acronym {
-    border-bottom: 1px dotted $color__border-abbr;
+    border-bottom: 1px dotted $gray-4;
     cursor: help;
-}
-
-mark,
-ins {
-    background: $color__background-ins;
-    text-decoration: none;
 }
 
 big {
