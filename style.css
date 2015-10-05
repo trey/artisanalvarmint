@@ -573,6 +573,7 @@ a:hover {
 
 .entry-content img {
   display: block;
+  width: 100%;
 }
 
 .entry-content .page-header {
