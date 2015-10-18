@@ -43,3 +43,27 @@
     clear: both;
     margin: 0 0 1.5em;
 }
+
+.post {
+    position: relative;
+
+    .entry-meta a {
+        @include breakpoint('notebook') {
+            height: 35px;
+            margin-top: -35px;
+            position: relative;
+        }
+        display: block;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        transition: all .2s;
+        width: 100%;
+
+        &:hover {
+            background-color: $gray-transparent-1;
+            color: $white;
+        }
+    }
+}

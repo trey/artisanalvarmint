@@ -11,17 +11,7 @@
 .entry-meta a {
     @include font-size(.8);
     color: transparent;
-    display: block;
-    height: 35px;
-    margin-top: -35px;
-    position: relative;
     text-decoration: none;
-    transition: all .2s;
-}
-
-.entry-meta a:hover {
-    background-color: $gray-transparent-1;
-    color: $white;
 }
 
 .site-title {
