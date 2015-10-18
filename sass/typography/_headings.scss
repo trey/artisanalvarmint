@@ -1,3 +1,7 @@
+.entry-content .page-header {
+    @include font-size(.8);
+}
+
 .entry-meta.single,
 .entry-meta a {
     padding: 8px;
@@ -15,7 +19,7 @@
     transition: all .2s;
 }
 
-.post:hover .entry-meta a {
+.entry-meta a:hover {
     background-color: $gray-transparent-1;
     color: $white;
 }

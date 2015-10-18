@@ -28,12 +28,7 @@
         width: 100%;
     }
 
-    .page-header {
-        @include font-size(1.2);
-    }
-
     .copy {
-        @include font-size(1.5);
         margin: 0 auto;
         max-width: 900px;
         padding: 0 50px;
