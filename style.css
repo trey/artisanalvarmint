@@ -265,7 +265,7 @@ select,
 textarea {
   font-size: 1rem;
   color: #999;
-  font-family: Georgia, serif;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
   line-height: 1.5;
 }
 
@@ -357,8 +357,7 @@ q {
   quotes: '" "';
 }
 
-blockquote:before,
-blockquote:after,
+blockquote:before, blockquote:after,
 q:before,
 q:after {
   content: '';
@@ -442,9 +441,9 @@ a:hover {
   width: 50%;
 }
 
-.site-main .comment-navigation,
-.site-main .posts-navigation,
-.site-main .post-navigation {
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
   padding: 10px 15px;
 }
 
@@ -572,7 +571,9 @@ a:hover {
 
 .entry-content img {
   display: block;
-  width: 100%;
+  margin: 0 auto;
+  max-height: 100vh;
+  max-width: 100%;
 }
 
 .entry-content .copy {
@@ -600,7 +601,7 @@ a:hover {
   left: 0;
   position: absolute;
   top: 0;
-  transition: all 0.2s;
+  transition: all .2s;
   width: 100%;
 }
 

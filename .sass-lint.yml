@@ -51,6 +51,7 @@ rules:
   mixin-name-format: 1
   placeholder-name-format: 1
   variable-name-format: 0
+  class-name-format: 0
 
   # Style Guide
   border-zero: 1
