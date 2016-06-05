@@ -13,7 +13,7 @@
     / <?php the_field('film'); ?>
 <?php endif; ?>
 <?php if (get_field('film_iso')): ?>
-    <?php the_field('film_iso'); ?>
+    @ ISO <?php the_field('film_iso'); ?>
 <?php endif; ?>
 <?php if (get_field('location')): ?>
     / <?php the_field('location'); ?>
